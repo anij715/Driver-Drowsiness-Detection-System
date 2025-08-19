@@ -87,3 +87,14 @@ Press the 'q' key to exit the program.
 This project was:
 - Published as a review paper at EasyChair [(archived here)](https://easychair.org/publications/preprint/VST8), and
 - Submitted in partial fulfillment of the requirements for the Bachelor's Degree in Computer Science & Engineering at KIIT University [(full report here)](https://www.researchgate.net/publication/336878674_DRIVER_DROWSINESS_DETECTION_SYSTEM).
+
+## Citation
+If you use this project in your research or work, please cite this github repo along with the original paper:
+
+```latex
+@booklet{EasyChair:2213,
+  author    = {Pratyush Agarwal and Rizul Sharma},
+  title     = {Driver Drowsiness Detection Techniques: Review},
+  howpublished = {EasyChair Preprint 2213},
+  year      = {EasyChair, 2019}}
+```
