@@ -2,7 +2,7 @@
 
 This project is a real-time system for detecting driver drowsiness using computer vision. It monitors the driver's eyes through a webcam and sounds an alarm if signs of fatigue are detected, helping to prevent accidents.
 
-![Demo Screenshot of the Drowsiness Detection System in action](https://i.imgur.com/8J0Z2QW.png)
+![Demo Screenshot of the Drowsiness Detection System in action](https://github.com/anij715/Driver-Drowsiness-Detection-System/blob/main/ddd.png)
 
 ## About The Project
 
@@ -78,10 +78,10 @@ python d3.py --shape-predictor shape_predictor_68_face_landmarks.dat --alarm ala
 
 Press the 'q' key to exit the program.
 
-## Authors
+## Developers
 
-* **Pratyush Agarwal**
-* **Rizul Sharma**
+* [Pratyush Agarwal](https://github.com/kyloprat)
+* [Rizul Sharma](https://github.com/anij715)
 
 This project was submitted in partial fulfillment of the requirements for the Bachelor's Degree in Computer Science & Engineering at KIIT University.
 [FULL PDF REPORT](https://www.researchgate.net/publication/336878674_DRIVER_DROWSINESS_DETECTION_SYSTEM)
