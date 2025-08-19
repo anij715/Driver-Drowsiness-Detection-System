@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this software in your work, please cite it using the information below."
+title: "Driver Drowsiness Detection System"
+authors:
+  - family-names: "Sharma"
+    given-names: "Rizul"
+  - family-names: "Agarwal"
+    given-names: "Pratyush"
+repository-code: "https://github.com/anij715/Driver-Drowsiness-Detection-System"
+url: "https://github.com/anij715/Driver-Drowsiness-Detection-System"
+date-released: 2019-07-29
+keywords:
+  - "Driver drowsiness"
+  - "fatigue"
+  - "eye detection"
+  - "blink pattern"
+  - "computer vision"
+  - "opencv"
+  - "dlib"
+# The preferred-citation field points to the academic paper/report.
+preferred-citation:
+  type: report
+  title: "DRIVER DROWSINESS DETECTION SYSTEM"
+  authors:
+    - family-names: "Sharma"
+      given-names: "Rizul"
+    - family-names: "Agarwal"
+      given-names: "Pratyush"
+  year: 2019
+  month: 7
+  url: "https://github.com/anij715/Driver-Drowsiness-Detection-System"
