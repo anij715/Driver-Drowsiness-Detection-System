@@ -25,9 +25,10 @@ The core of this project is the calculation of the **Eye Aspect Ratio (EAR)**, a
 2.  **Face & Landmark Detection**: It uses dlib's pre-trained facial landmark detector to locate 68 key points on the driver's face.
 3.  **Eye Extraction**: The coordinates of the left and right eyes are extracted from the facial landmarks.
 4.  **EAR Calculation**: The Eye Aspect Ratio (EAR) is computed for both eyes. This ratio is the relationship between the height and width of the eyes.
-    $$ \text{EAR} = \frac{\|\mathbf{p}_2 - \mathbf{p}_6\| + \|\mathbf{p}_3 - \mathbf{p}_5\|}{2\|\mathbf{p}_1 - \mathbf{p}_4\|} $$
 5.  **Drowsiness Check**: If the EAR falls below a predefined threshold for a set number of consecutive frames, the system determines that the driver is drowsy.
 6.  **Alarm**: An alarm sound is played to alert the driver.
+
+$$\text{EAR} = \frac{\|\mathbf{p}_2 - \mathbf{p}_6\| + \|\mathbf{p}_3 - \mathbf{p}_5\|}{2\|\mathbf{p}_1 - \mathbf{p}_4\|}$$
 
 ## Getting Started
 
@@ -83,5 +84,6 @@ Press the 'q' key to exit the program.
 * [Pratyush Agarwal](https://github.com/kyloprat)
 * [Rizul Sharma](https://github.com/anij715)
 
-This project was submitted in partial fulfillment of the requirements for the Bachelor's Degree in Computer Science & Engineering at KIIT University.
-[FULL PDF REPORT](https://www.researchgate.net/publication/336878674_DRIVER_DROWSINESS_DETECTION_SYSTEM)
+This project was:
+- Published as a review paper at EasyChair [(archived here)](https://easychair.org/publications/preprint/VST8), and
+- Submitted in partial fulfillment of the requirements for the Bachelor's Degree in Computer Science & Engineering at KIIT University [(full report here)](https://www.researchgate.net/publication/336878674_DRIVER_DROWSINESS_DETECTION_SYSTEM).
